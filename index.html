@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Breanna &amp; Eric — 05.31.2027</title>
+<meta name="description" content="Breanna &amp; Eric are getting married on May 31, 2027 in Trabuco Canyon, CA.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='24' cy='36' r='16' fill='none' stroke='%231F4941' stroke-width='5'/%3E%3Ccircle cx='40' cy='36' r='16' fill='none' stroke='%23852015' stroke-width='5'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Jost:wght@400;500;600&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="gate" id="gate">
+  <form class="gate-card" id="gateForm">
+    <p class="gate-eyebrow">Private Page</p>
+    <h1 class="gate-title">Breanna <span class="amp">&amp;</span> Eric</h1>
+    <p class="gate-copy">Enter the password from your invite to continue.</p>
+    <input type="password" id="gateInput" class="gate-input" placeholder="Password" autocomplete="off" required>
+    <button type="submit" class="btn btn-primary gate-submit">Enter</button>
+    <p class="gate-error" id="gateError" hidden>That's not quite right — try again.</p>
+  </form>
+</div>
+
+<header class="site-header" id="top" hidden>
+  <nav class="navbar">
+    <a class="brand" href="#top">B<span class="amp">&amp;</span>E</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#story">Our Story</a></li>
+      <li><a href="#gallery">Photos</a></li>
+      <li><a href="#schedule">Schedule</a></li>
+      <li><a href="#travel">Travel</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#rsvp" class="nav-cta">RSVP</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main hidden>
+
+  <section class="hero">
+    <p class="eyebrow">A small study of N = 2</p>
+    <h1 class="hero-names">Breanna <span class="amp">&amp;</span> Eric</h1>
+    <p class="hero-sub">We're getting married.</p>
+
+    <div class="hero-data">
+      <div class="data-point">
+        <span class="label">When</span>
+        <span class="value">05.31.2027</span>
+      </div>
+      <div class="data-point">
+        <span class="label">Where</span>
+        <span class="value">Trabuco Canyon, CA</span>
+      </div>
+      <div class="data-point">
+        <span class="label">Days to Go</span>
+        <span class="value" id="countdown-value">—</span>
+      </div>
+    </div>
+
+    <div class="hero-cta">
+      <a href="#rsvp" class="btn btn-primary">RSVP</a>
+      <a href="#story" class="btn btn-outline">Our Story</a>
+    </div>
+  </section>
+
+  <section class="section" id="story">
+    <p class="journal-header">A Case Study in Love</p>
+    <h2 class="section-title">Our Story</h2>
+
+    <div class="abstract-card">
+      <h3>Abstract</h3>
+      <p>We met in 2022 as undergrads at Yale, where we lived in the same residential college and bonded over powerlifting and a shared love of science. After graduating, we were lucky enough to head to Duke University together for our Ph.D.s. These days we spend our time eating, napping, talking about our research, and serving our cat, Princess Pibb.</p>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-entry">
+        <span class="entry-tag">Chapter One</span>
+        <h4>How We Met</h4>
+        <p>In the summer of 2022, a man by the name of <a href="https://www.linkedin.com/in/bienn-viquiera/">Bienn Viquiera</a> introduced us.</p>
+      </div>
+      <div class="timeline-entry">
+        <span class="entry-tag">Chapter Two</span>
+        <h4>The First Date</h4>
+        <p>Boba, a long walk, and a bench outside of William L. Harkness Hall.</p>
+      </div>
+      <div class="timeline-entry">
+        <span class="entry-tag">Chapter Three</span>
+        <h4>A Longitudingal Study</h4>
+        <p>Graduated college, started graduate school, and got a cat.</p>
+        <figure class="timeline-photo">
+          <img src="images/misc/princess.jpg" alt="Princess the cat">
+          <figcaption>Princess Pibb Nguyen</figcaption>
+        </figure>
+      </div>
+      <div class="timeline-entry">
+        <span class="entry-tag">Chapter Four</span>
+        <h4>The Proposal</h4>
+        <p>Grand Cayman Islands, a chicken, and a uncooperative taxi driver.</p>
+      </div>
+      <div class="timeline-entry">
+        <span class="entry-tag">Chapter Five</span>
+        <h4>Future Directions</h4>
+        <p>The next chapter begins 05.31.2027.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="gallery">
+    <h2 class="section-title">Photo Gallery</h2>
+    <p class="gallery-intro">From our engagement and academic photoshoots. Refresh the page for a new set.</p>
+    <div class="figures-grid" id="figuresGrid"></div>
+  </section>
+
+  <section class="section" id="schedule">
+    <h2 class="section-title">Event Details</h2>
+
+    <div class="schedule-list">
+      <div class="schedule-item">
+        <span class="time editme">6:00pm</span>
+        <div>
+          <h4>Ceremony</h4>
+          <p>22682 Golf Club Dr, Trabuco Canyon, CA 92679</p>
+        </div>
+      </div>
+      <div class="schedule-item">
+        <span class="time editme">6:30pm</span>
+        <div>
+          <h4>Cocktail Hour</h4>
+          <p>Light refreshments and mingling!</p>
+        </div>
+      </div>
+      <div class="schedule-item">
+        <span class="time editme">7:00pm</span>
+        <div>
+          <h4>Reception</h4>
+          <p>Dinner and karaoke!</p>
+        </div>
+      </div>
+      <div class="schedule-item">
+        <span class="time editme">10:00pm</span>
+        <div>
+          <h4>Send-Off</h4>
+          <p>After-party at the AirBNB!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="map-embed">
+      <iframe
+        title="Venue map"
+        src="https://www.google.com/maps?q=22682+Golf+Club+Dr,+Trabuco+Canyon,+CA+92679&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
+  <section class="section alt" id="travel">
+    <h2 class="section-title">Travel &amp; Accommodations</h2>
+    <p class="coming-soon">Coming soon.</p>
+  </section>
+
+  <section class="section" id="faq">
+    <h2 class="section-title">FAQ</h2>
+    <p class="coming-soon">Coming soon.</p>
+  </section>
+
+  <section class="section alt" id="rsvp">
+    <h2 class="section-title">RSVP</h2>
+    <p class="coming-soon">Coming soon.</p>
+  </section>
+
+</main>
+
+<footer class="site-footer" hidden>
+  <p class="footer-names">Breanna <span class="amp">&amp;</span> Eric</p>
+  <p>05.31.2027 — Trabuco Canyon, California</p>
+  <p>#NguyenNguyen</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
